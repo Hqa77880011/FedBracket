@@ -1,0 +1,26 @@
+{
+  "seed": 17,
+  "device": "cpu",
+  "epochs": 100,
+  "patience": 15,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "input_dim": 3072,
+  "hidden": 64,
+  "classes": 100,
+  "rounds": 100,
+  "participation": 0.2,
+  "local_steps": 5,
+  "minimum_steps": 1,
+  "audit_interval": 5,
+  "audit_pairs": 2,
+  "audit_batch_size": 32,
+  "audit_fraction": 0.25,
+  "audit_threshold": 0.01,
+  "ema": 0.9,
+  "proximal_weight": 0.01,
+  "server_learning_rate": 0.01,
+  "target_accuracy": 0.7
+}
+
